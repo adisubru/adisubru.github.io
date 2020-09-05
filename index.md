@@ -22,7 +22,7 @@ ricing my OS; and nuking `/home` partitions seems to give me immense pleasure. Y
 more at my [official WCA page](https://www.worldcubeassociation.org/persons/2018SUBR03) and my 
 [dotfiles repo](https://github.com/adisubru/dotfiles).
 
-# Teaching Experience
+# Teaching (Assistant) Experience
 At SNU
  - CSD203 Principlies of Programming Languages (monsoon20) - Teaching Assistant
  - CSD302 Design and Analysis of Algorithms (spring20) - Teaching Assistant
