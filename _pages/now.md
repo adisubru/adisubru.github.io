@@ -5,16 +5,12 @@ excerpt: "What I'm doing now"
 author_profile: true
 ---
 
- - eagerly awaiting the start of my PhD program at IISc.
- - (as I wait) TAing for a java course, while not having any experience with java myself.
+ - mostly in hikikomiri-mode thanks to covid. Not that I mind it too much though...
+ - doing (remote) coursework at IISc and IMSc.
+ - practicing Color Neutral solves again.
  - alternating between binging anime and binging theory course lectures.
- - practicing Color Neutral solves again. Am also hitting just-barely-sub-20 Ao100s on white.
-
-# What am I Learning
- - Kanji. Currently I've learnt around 200.
- - [Theory Toolkit](https://www.diderot.one/courses/28/) by Ryan O'Donnell.
- - Mathematical Logic by R Ramanujam.
+ - Learning [Kanji](https://www.kanjidamage.com/). Currently know around 200.
+ - Learning [Rust](https://github.com/rust-lang/rustlings/)
 
 
-
-Last Updated on September 3, 2020. This is a now page, inspired by the [nownownow](https://nownownow.com/) project by Derek Sivers.
+Last Updated on October 2, 2020. This is a now page, inspired by the [nownownow](https://nownownow.com/) project by Derek Sivers.

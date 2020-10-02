@@ -1,9 +1,9 @@
 ---
 title: "Hello World"
 collection: updates
-excerpt: 
+excerpt:
 date: 2020-08-26
-author: 
+author:
 ---
 
 Hello World. This is my first post on the feed. I shall be posting updates regarding work, or any other major events here.\
