@@ -3,13 +3,13 @@
 
 ## Publications
 
- - [Online and Dynamic Algorithms for Geometric Set Cover and Hitting Set](), *SoCG* 2023\
+ - [Online and Dynamic Algorithms for Geometric Set Cover and Hitting Set](), **SoCG** 2023\
  Arindam Khan, Aditya Lonkar, Saladi Rahul, Aditya Subramanian, Andreas Wiese.
 
- - [Fair Rank Aggregation](), *NeurIPS* 2022\
+ - [Fair Rank Aggregation](), **NeurIPS** 2022\
  Diptarka Chakraborty, Syamantak Das, Arindam Khan, Aditya Subramanian.
 
- - [A PTAS for the horizontal rectangle stabbing problem](https://arxiv.org/abs/2111.05197), *IPCO* 2022\
+ - [A PTAS for the horizontal rectangle stabbing problem](https://arxiv.org/abs/2111.05197), **IPCO** 2022\
 Arindam Khan, Aditya Subramanian, Andreas Wiese.
 
 ---
