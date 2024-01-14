@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Computational Geometry Reading Group</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Reading Group - Computational Geometry</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sessions">Sessions</a></li>
+                    <li><a href="#members">Members</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+            The aim of this reading group is to read some of the new and old literature in computational geometry, to get a firm grip on the various techniques that are commonly used in the field.
+            The group meets regularly every week and a paper of interest is presented over a few two-three hour sessions by a member of the group. These sessions are also occasionally attended
+            by other students and faculty that might be interested in the topic. If you are at IISc, and wish to attend these sessions, please contact one of the group members.
+            </section>
+
+            <section id="Sessions">
+                <h2>Sessions</h2>
+                <table>
+                    <tr>
+                        <th>Date</th>
+                        <th>Speaker</th>
+                        <th>Paper Title</th>
+                        <th>Topics Covered</th>
+                    </tr>
+                    <tr>
+                        <td>May 16, 2023</td>
+                        <td>Siddhartha Sarkar</td>
+                        <td><a href="http://homepage.divms.uiowa.edu/~kvaradar/paps/weightedcover.pdf">Weighted Geometric Set Cover via Quasi-Uniform Sampling</a></td>
+                        <td><ul>
+                                <li>Quasi-uniform sampling technique</li>
+                                <li>O(logloglog n)-approximate set cover for fat triangles</li>
+                                <li>Union complexity</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>May 23, 2023</td>
+                        <td rowspan="2">Mohit Garg</td>
+                        <td rowspan="2"><a href="https://arxiv.org/pdf/2007.07880">Coloring and Maximum Weight Independent Set of Rectangles</a></td>
+                        <td><ul>
+                                <li>O(w^2)-coloring for rectangles</li>
+                                <li>O(w)-coloring of rectangles with only special types of intersections</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>May 30, 2023</td>
+                        <td><ul>
+                                <li>Hierarchical decomposition</li>
+                                <li>O(w)-coloring of rectangles with only special types of intersections</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>June 06, 2023</td>
+                        <td>Aditya Subramanian</td>
+                        <td><a href="https://courses.cs.duke.edu/spring07/cps296.2/papers/setcover.pdf">Almost Optimal Set Covers in Finite VC-Dimension</a></td>
+                        <td><ul>
+                                <li>Shattering dimension</li>
+                                <li>O(dlog OPT)-approx for set cover with VC-dim = d</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>June 12, 2023</td>
+                        <td>Rachana Gusain</td>
+                        <td><a href="https://courses.csail.mit.edu/6.851/spring21/lectures/L01.html">Persistent data structures</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>June 20, 2023</td>
+                        <td rowspan="3">Nikhilesh Rajaraman</td>
+                        <td rowspan="3"><a href="https://users.cs.duke.edu/~debmalya/papers/stoc17-setcover.pdf">Online and Dynamic Algorithms for Set Cover</a></td>
+                        <td><ul>
+                                <li>Stable set covers</li>
+                                <li>Greedy algorithm through an alternate lens</li>
+                                <li>Dynamically maintaining set/element levels</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>June 28, 2023</td>
+                        <td><ul><li>Analysis using charging argument</li></ul></td>
+                    </tr>
+                    <tr>
+                        <td>July 04, 2023</td>
+                        <td><ul><li>Primal-dual analysis through charging using budgets</li></ul></td>
+                    </tr>
+                    <tr>
+                        <td>July 18, 2023</td>
+                        <td>Debajyoti Kar</td>
+                        <td><a href="https://dl.acm.org/doi/pdf/10.1145/2582112.2582152">Near-Linear Algorithms for Geometric Hitting Sets and Set Covers</a></td>
+                        <td><ul>
+                                <li>Zero sum games</li>
+                                <li>Approximate Nash Equilibrium using MWU</li>
+                                <li>O(loglog OPT)-approximation for hitting set for rectangles</li>
+                                <li>BST, Segment tree</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>July 25, 2023</td>
+                        <td>Pranjal Singh (guest)</td>
+                        <td><a href="https://arxiv.org/pdf/2205.15189">Independence number of intersection graphs of axis-parallel segments</a></td>
+                        <td><ul>
+                            <li>Favorable representation</li>
+                            <li>Erdos-Szekeres theorem</li>
+                        </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>August 02, 2023</td>
+                        <td rowspan="2">Siddhartha Sarkar</td>
+                        <td rowspan="2"><a href="https://dl.acm.org/doi/pdf/10.1145/1542362.1542420">Approximation Algorithms for Maximum Independent Set of Pseudo-Disks</a></td>
+                        <td><ul>
+                                <li>Local search analysis using union complexity</li>
+                                <li>Frederickson’s planar separator theorem</li>
+                                <li>PTAS for MIS on Pseudodisks</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>August 08, 2023</td>
+                        <td><ul>
+                                <li>Resistance</li>
+                                <li>Clarkson’s technique</li>
+                                <li>u(n)/n-approximation for weighted geometric MIS</li>
+                            </ul></td>
+                    </tr>
+                    <tr>
+                        <td>August 17, 2023</td>
+                        <td>Mohit Garg</td>
+                        <td><a href="https://epubs.siam.org/doi/reader/10.1137/1.9781611973082.87">Computing the Independence Number of Intersection Graphs</a></td>
+                        <td><ul>
+                                <li>Separators in string graphs</li>
+                                <li>Exact algorithms for MIS on string graphs</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>August 24, 2023</td>
+                        <td rowspan="2">Aditya Subramanian</td>
+                        <td rowspan="2"><a href="https://arxiv.org/pdf/1207.2598">Hitting sets online and unique max-coloring</a></td>
+                        <td><ul>
+                                <li>Vertex ranking</li>
+                                <li>Theta(log n)-approximation for online hitting sets on intervals</li>
+                                <li>Chen et al.’s Plane partitioning technique</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>August 31, 2023</td>
+                        <td><ul><li>Theta(log n)-approximation for online hitting sets on unit disks</li></ul></td>
+                    </tr>
+                    <tr>
+                        <td>September 05, 2023</td>
+                        <td rowspan="2">Rachana Gusain</td>
+                        <td rowspan="2"><a href="https://drops.dagstuhl.de/opus/volltexte/2020/12209/pdf/LIPIcs-SoCG-2020-51.pdf">Dynamic Approximate Maximum Independent Set of Intervals, Hypercubes and Hyperrectangles</a></td>
+                        <td><ul>
+                                <li>Hierarchical grid decomposition</li>
+                                <li>Data structure to report smallest hypercube inside a box</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>September 12, 2023</td>
+                        <td><ul>
+                                <li>Dynamic DP over hierarchical grid</li>
+                                <li>Analysis of greedy algorithm via charging</li>
+                                <li>(1+eps).2^d-approximation in polylog update time for dynamic MIS on hypercubes</li>
+                            </ul></td>
+                    </tr>
+                    <tr>
+                        <td>October 03, 2023</td>
+                        <td rowspan="2">Nikhilesh Rajaraman</td>
+                        <td rowspan="2"><a href="https://arxiv.org/pdf/2307.09961.pdf">On Dynamic Graph Algorithms with Predictions</a></td>
+                        <td><ul><li>Dynamic All Pairs Shortest Paths (APSP) with predictions</li></ul></td>
+                    </tr>
+                    <tr>
+                        <td>October 26, 2023</td>
+                        <td><ul>
+                                <li>Dynamically maintaining matrix inverse with column updates in O(n^2) time</li>
+                                <li>Woodbury matrix identity</li>
+                                <li>Dynamic s-t connectivity in O(n^2) update time</li>
+                        </ul></td>
+                    </tr>
+                    <tr>
+                        <td>October 12, 2023</td>
+                        <td rowspan="2">Debajyoti Kar</td>
+                        <td rowspan="2"><a href="https://www.semanticscholar.org/reader/ef9b73d3c9a4a069f86598a0fac9ab47bed1c7bb">Online Independent Set Beyond the Worst-Case: Secretaries, Prophets, and Periods</a></td>
+                        <td><ul>
+                                <li>Inductive independence number</li>
+                                <li>8.rho^2-approximation for unweighted MIS in Secretary model</li>
+                        </ul></td>
+                    </tr>
+                    <tr>
+                        <td>October 19, 2023</td>
+                        <td><ul>
+                                <li>O(rho^2 log n)-approximation for weighted MIS in Secretary model</li>
+                                <li>Omega(log n/(loglog n)^2) lower bound</li>
+                        </ul></td>
+                    </tr>
+                    <tr>
+                        <td>November 11, 2023</td>
+                        <td rowspan="3">Aditya Subramanian</td>
+                        <td rowspan="3"><a href="https://drops.dagstuhl.de/opus/volltexte/2019/10664/pdf/LIPIcs-ICALP-2019-88.pdf">Tight Bounds for Online Weighted Tree Augmentation</a></td>
+                        <td><ul>
+                                <li>Caterpillar decomposition</li>
+                                <li>Rooted path decomposition of width O(log n)</li>
+                        </ul></td>
+                    </tr>
+                    <tr>
+                        <td>December 07, 2023</td>
+                        <td><ul>
+                                <li>Suboptimal O(log^2 n)-approximation for online WTAP</li>
+                                <li>Strategy to get O(log n)-approximation using “nice” feasible solution of WPAP</li>
+                                <li>LP relaxation for online WPAP</li>
+                        </ul></td>
+                    </tr>
+                    <tr>
+                        <td>December 12, 2023</td>
+                        <td><ul>
+                                <li>Omega(log n) lower bound for online WPAP</li>
+                                <li>Omega(log n) lower bound for online (unweighted) TAP</li>
+                        </ul></td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="members">
+                <h2>Members</h2>
+                <div class="grid">
+                    <div class="grid-item">
+                        <img src="https://adisubru.github.io/profile-photo.jpg" alt="subbu">
+                        <h3><a href="https://adisubru.github.io">Aditya Subramanian</a></h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://www.csa.iisc.ac.in/newweb/wp-content/uploads/2023/03/Debajyoti-Kar.jpg" alt="debbu">
+                        <h3><a href="https://sites.google.com/view/debajyoti-kar/home">Debajyoti Kar</a></h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://www.uni-bremen.de/fileadmin/_processed_/d/2/csm_MohitGarg_479202d142.jpeg" alt="mohit">
+                        <h3>Mohit Garg</h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="files/raja.jpg" alt="rajaraman">
+                        <h3>Nikhilesh Rajaraman</h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="member5.jpg" alt="rachana">
+                        <h3>Rachana Gusain</h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://www.csa.iisc.ac.in/newweb/wp-content/uploads/2022/01/siddhartha_sarkar_phd_2021_Siddhartha-Sarkar.jpeg" alt="siddhartha">
+                        <h3>Siddhartha Sarkar</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section id="faculty">
+                <h2>Faculty Advisors</h2>
+                <div class="grid">
+                    <div class="grid-item">
+                        <img src="https://www.csa.iisc.ac.in/~arindamkhan/pic.jpg" alt="arindam">
+                        <h3><a href="https://www.csa.iisc.ac.in/~arindamkhan/">Arindam Khan</a></h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://www.csa.iisc.ac.in/~saladi/Photos/sweater-mythili.jpg" alt="rahul">
+                        <h3><a href="https://www.csa.iisc.ac.in/~saladi/">Rahul Saladi</a></h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://www.csa.iisc.ac.in/~gsat/sathish_photo.jpg" alt="gsat">
+                        <h3><a href="https://www.csa.iisc.ac.in/~gsat/">Satish Govindarajan</a></h3>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://www.csa.iisc.ac.in/~barman/siddharth-barman.jpg" alt="siddharth">
+                        <h3><a href="https://www.csa.iisc.ac.in/~barman/">Siddharth Barman</a></h3>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 by Algorithms group, IISc</p>
+        </footer>
+    </body>
+</html>
